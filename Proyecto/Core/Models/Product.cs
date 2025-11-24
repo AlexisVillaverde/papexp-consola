@@ -9,7 +9,7 @@ using Proyecto.Inventory.Observers;
 namespace Proyecto.Core.Models
 { 
     
-    public class Product : ICatalogItem
+    public class Product : Inventory.ICatalogItem
     {
         public string Id { get; set; }
         public string Name { get; set; }

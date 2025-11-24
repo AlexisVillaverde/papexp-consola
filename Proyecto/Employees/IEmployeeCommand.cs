@@ -6,13 +6,12 @@ using System.Threading.Tasks;
 
 namespace Proyecto.Employees
 {
-    internal interface IEmployeeCommand
+    public interface IEmployeeCommand
     {
         // --- PATRÓN COMMAND ---
         // 1. La Interfaz de Comando
-        public interface IEmployeeCommand
-        {
-            void Execute();
-        }
+
+        void Execute();
+        
     }
 }
