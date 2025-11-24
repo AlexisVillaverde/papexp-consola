@@ -27,10 +27,10 @@ namespace Proyecto
             while (running)
             {
                 Console.WriteLine("\n--- MENÚ PRINCIPAL ---");
-                Console.WriteLine("1. Módulo de Ventas (Facade, Builder, Strategy, Decorator)");
-                Console.WriteLine("2. Módulo de Almacén (Composite, Observer, Adapter)");
-                Console.WriteLine("3. Módulo de Empleados (Command)");
-                Console.WriteLine("4. Módulo de Reportes (Template Method, Singleton)");
+                Console.WriteLine("1. Módulo de Ventas");
+                Console.WriteLine("2. Módulo de Almacén");
+                Console.WriteLine("3. Módulo de Empleados");
+                Console.WriteLine("4. Módulo de Reportes");
                 Console.WriteLine("5. Salir");
                 Console.Write("Seleccione una opción: ");
                 string choice = Console.ReadLine();
@@ -71,21 +71,21 @@ namespace Proyecto
             Console.WriteLine("Catálogo de Productos (Composite):");
             _db.RootCategory.Display(0);
 
-            Console.WriteLine("\nImportando productos de sistema antiguo (Adapter)...");
+            Console.WriteLine("\nImportando productos de sistema antiguo...");
             var importer = new LegacyProductImporter();
             importer.ImportProducts();
 
             Console.WriteLine("\nCatálogo actualizado:");
             _db.RootCategory.Display(0);
 
-            Console.WriteLine("\n(Patrón Observer está activo para 'Pluma Negra')");
+            Console.WriteLine("\n(Patrón Observer está activo para)");
         }
 
         static void RunEmployeeModule()
         {
             Console.WriteLine("\n--- Módulo de Empleados ---");
             var manager = new EmployeeManager();
-            var newEmployee = new Employee { Name = "Cesar Martínez", Role = "Admin" }; // [cite: 1006]
+            var newEmployee = new Employee { Name = "Cesar Martínez", Role = "Admin" }; 
 
             IEmployeeCommand command = new AddEmployeeCommand(newEmployee);
             manager.ProcessCommand(command);
@@ -105,8 +105,8 @@ namespace Proyecto
         static void SeedData()
         {
             // Empleados (HU2)
-            _db.Employees.Add(new Employee { Id = 1, Name = "Francisco Villaverde", Role = "Vendedor" }); // [cite: 1006]
-            _db.Employees.Add(new Employee { Id = 2, Name = "Saúl Santiago", Role = "Almacenista" }); // [cite: 1006]
+            _db.Employees.Add(new Employee { Id = 1, Name = "Francisco Villaverde", Role = "Vendedor" });
+            _db.Employees.Add(new Employee { Id = 2, Name = "Saúl Santiago", Role = "Almacenista" }); 
 
             // Productos (HU4)
             var p1 = new Product { Id = "1", Name = "Cuaderno Profesional", Price = 45.00m, Stock = 20 };
