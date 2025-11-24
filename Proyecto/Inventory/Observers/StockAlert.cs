@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Proyecto.Inventory.Observers
 {
-    public class StockAlert
+    public class StockAlert : IStockObserver
     {
         private string AdminEmail { get; set; }
         public StockAlert(string adminEmail) => AdminEmail = adminEmail;

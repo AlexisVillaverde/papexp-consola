@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Proyecto.Sales.Strategies
 {
-    public class CashPaymentStrategy
+    public class CashPaymentStrategy: IPaymentStrategy
     {
         public void Pay(decimal amount)
         {
