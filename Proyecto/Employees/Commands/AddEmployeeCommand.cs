@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Proyecto.Employees
+namespace Proyecto.Employees.Commands
 {
     // --- PATRÓN COMMAND ---
     // 2. El Comando Concreto (para HU2: Módulo de Empleados)

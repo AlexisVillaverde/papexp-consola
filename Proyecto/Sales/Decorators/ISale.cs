@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Proyecto.Inventory
+namespace Proyecto.Sales.Decorators
 {
-    public class ICatalogItem
+    public interface ISale
     {
-          
-
+        decimal GetTotalCost();
+        string GetDescription();
     }
 }
