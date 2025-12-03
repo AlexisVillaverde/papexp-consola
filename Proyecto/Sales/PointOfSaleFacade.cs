@@ -17,6 +17,10 @@ namespace Proyecto.Sales
         public void CompleteSale(ISale saleDecorator)
         {
             Console.WriteLine("\n--- RESUMEN DE VENTA (Facade) ---");
+             Console.WriteLine("\n--- Procesando Venta---");
+            decimal finalCost = saleDecorator.GetTotalCost(); // Usa el Decorator
+            Console.WriteLine($"Descripción: {saleDecorator.GetDescription()}");
+
 
             // 1. Obtener costo final (con o sin descuentos aplicados por Decorator)
             decimal finalAmount = saleDecorator.GetTotalCost();

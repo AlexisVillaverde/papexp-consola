@@ -2,7 +2,7 @@
 using Proyecto.Sales.States;
 using System;
 
-namespace PAPEXP_Console.Sales.States
+namespace Proyecto.Sales.States
 {
     public class PaidState : ISaleState
     {
