@@ -9,7 +9,7 @@ namespace Proyecto.Sales.States
         public void AddItem(Sale context, int quantity)
         {
             // COMPORTAMIENTO A: Permitir
-            Console.WriteLine($"✅ Estado Abierto: Agregando {quantity} artículos a la venta...");
+            Console.WriteLine($"Estado Abierto: Agregando {quantity} artículos a la venta...");
             // Aquí la lógica real agregaría el ítem a la lista context.Items
         }
 

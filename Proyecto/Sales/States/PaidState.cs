@@ -11,13 +11,13 @@ namespace Proyecto.Sales.States
             // COMPORTAMIENTO B: Bloquear
             // En este estado, la MISMA acción (AddItem) se comporta diferente.
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine("❌ Error: No puedes agregar ítems a una venta que ya fue PAGADA.");
+            Console.WriteLine("Error: No puedes agregar ítems a una venta que ya fue PAGADA.");
             Console.ResetColor();
         }
 
         public void Pay(Sale context)
         {
-            Console.WriteLine("⚠️ Error: Esta venta ya está pagada. No se puede cobrar doble.");
+            Console.WriteLine("Error: Esta venta ya está pagada. No se puede cobrar doble.");
         }
 
         public void Cancel(Sale context)

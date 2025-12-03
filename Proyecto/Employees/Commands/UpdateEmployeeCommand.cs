@@ -31,11 +31,11 @@ namespace Proyecto.Employees.Commands
                 if (!string.IsNullOrEmpty(_newPassword)) emp.Password = _newPassword;
 
                 _db.SaveData();
-                Console.WriteLine($"✅ Empleado ID {_id} actualizado correctamente.");
+                Console.WriteLine($"Empleado ID {_id} actualizado correctamente.");
             }
             else
             {
-                Console.WriteLine($"❌ Error: No se encontró empleado con ID {_id}.");
+                Console.WriteLine($"Error: No se encontró empleado con ID {_id}.");
             }
         }
     }

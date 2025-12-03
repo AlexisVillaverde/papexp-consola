@@ -32,11 +32,11 @@ namespace Proyecto.Inventory.Commands
                 product.Stock = _newStock;
 
                 _db.SaveData(); // Guardamos cambios
-                Console.WriteLine($"✅ Producto '{product.Name}' actualizado (Precio: ${product.Price}, Stock: {product.Stock}).");
+                Console.WriteLine($"Producto '{product.Name}' actualizado (Precio: ${product.Price}, Stock: {product.Stock}).");
             }
             else
             {
-                Console.WriteLine($"❌ Error: Producto con ID {_id} no encontrado.");
+                Console.WriteLine($"Error: Producto con ID {_id} no encontrado.");
             }
         }
     }

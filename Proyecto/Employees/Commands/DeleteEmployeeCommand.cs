@@ -22,17 +22,17 @@ namespace Proyecto.Employees.Commands
                 // Evitar que se borre a sí mismo si es el usuario actual
                 if (_db.CurrentUser != null && _db.CurrentUser.Id == emp.Id)
                 {
-                    Console.WriteLine("⚠️ Error: No puedes eliminar tu propio usuario mientras estás logueado.");
+                    Console.WriteLine("Error: No puedes eliminar tu propio usuario mientras estás logueado.");
                     return;
                 }
 
                 _db.Employees.Remove(emp);
                 _db.SaveData();
-                Console.WriteLine($"🗑️ Empleado ID {_id} ({emp.Name}) eliminado.");
+                Console.WriteLine($"Empleado ID {_id} ({emp.Name}) eliminado.");
             }
             else
             {
-                Console.WriteLine($"❌ Error: No se encontró empleado con ID {_id}.");
+                Console.WriteLine($"Error: No se encontró empleado con ID {_id}.");
             }
         }
     }

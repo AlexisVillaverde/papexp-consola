@@ -38,7 +38,7 @@ namespace Proyecto.Sales
             _paymentStrategy.Pay(finalAmount);
 
             // 3. Confirmación
-            Console.WriteLine("✅ Transacción completada exitosamente.");
+            Console.WriteLine("Transacción completada exitosamente.");
             Console.WriteLine("-----------------------------------");
         }
     }

@@ -24,7 +24,7 @@ namespace Proyecto.Employees.Commands
             _db.Employees.Add(_employee);
             _db.SaveData(); // Guardar cambios en JSON
 
-            Console.WriteLine($"✅ Empleado agregado: {_employee.Name} (ID: {_employee.Id})");
+            Console.WriteLine($"Empleado agregado: {_employee.Name} (ID: {_employee.Id})");
         }
     }
 }

@@ -23,7 +23,7 @@ namespace Proyecto.Inventory.Commands
             // Verificamos si el ID ya existe
             if (_db.Products.Exists(p => p.Id == _product.Id))
             {
-                Console.WriteLine($"❌ Error: Ya existe un producto con el ID {_product.Id}.");
+                Console.WriteLine($"Error: Ya existe un producto con el ID {_product.Id}.");
                 return;
             }
 

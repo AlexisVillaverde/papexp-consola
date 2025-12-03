@@ -39,7 +39,7 @@ namespace Proyecto.Reports.Proxies
             else
             {
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("⛔ ACCESO DENEGADO: Se requieren permisos de Administrador para ver reportes.");
+                Console.WriteLine("ACCESO DENEGADO: Se requieren permisos de Administrador para ver reportes.");
                 Console.ResetColor();
                 return false;
             }
