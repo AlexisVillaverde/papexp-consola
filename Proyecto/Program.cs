@@ -22,111 +22,176 @@ namespace Proyecto
         {
             SeedData();
 
-            Console.WriteLine($"Bienvenido a PAPEXP - Papelería Arcoíris");
             bool running = true;
+
             while (running)
             {
-                Console.WriteLine("\n--- MENÚ PRINCIPAL ---");
+                Console.Clear();
+                Console.WriteLine("=== PAPEXP - Papelería Arcoíris ===\n");
                 Console.WriteLine("1. Módulo de Ventas");
                 Console.WriteLine("2. Módulo de Almacén");
                 Console.WriteLine("3. Módulo de Empleados");
                 Console.WriteLine("4. Módulo de Reportes");
                 Console.WriteLine("5. Salir");
-                Console.Write("Seleccione una opción: ");
+                Console.Write("\nSeleccione una opción: ");
                 string choice = Console.ReadLine();
 
                 switch (choice)
                 {
-                    case "1": RunSalesModule(); break;
+                    case "1": RunSalesFlow(); break;
                     case "2": RunWarehouseModule(); break;
                     case "3": RunEmployeeModule(); break;
                     case "4": RunReportsModule(); break;
                     case "5": running = false; break;
-                    default: Console.WriteLine("Opción no válida."); break;
+                    default:
+                        Console.WriteLine("Opción no válida.");
+                        Console.ReadKey();
+                        break;
                 }
             }
         }
 
-        static void RunSalesModule()
+        // ------------------- MODULO DE VENTAS -------------------
+        static void RunSalesFlow()
         {
-            Console.WriteLine("\n--- Módulo de Ventas ---");
+            Console.Clear();
+            Console.WriteLine("=== MÓDULO DE VENTAS ===\n");
+
             var cashier = _db.Employees.Find(e => e.Id == 1);
-
             var saleBuilder = new SaleBuilder(cashier);
-            saleBuilder.AddProduct("1", 2);  // 2 cuadernos
-            saleBuilder.AddProduct("4", 3);  // 3 plumas (esto disparará el Observer)
-            Sale newSale = saleBuilder.Build();
 
-            ISale saleFinal = new BaseSale(newSale);
-            saleFinal = new EmployeeDiscountDecorator(saleFinal);
+            bool adding = true;
+
+            while (adding)
+            {
+                Console.Clear();
+                Console.WriteLine("=== NUEVA VENTA ===\n");
+
+                Console.WriteLine("ID   | Producto                       | Precio | Stock ");
+                Console.WriteLine("--------------------------------------------------------");
+
+                foreach (var p in _db.Products)
+                    Console.WriteLine($"{p.Id.PadRight(4)} | {p.Name.PadRight(28)} | ${p.Price,-6:F2} | {p.Stock}");
+
+                Console.Write("\nIngrese el ID del producto: ");
+                string productId = Console.ReadLine();
+
+                Console.Write("Cantidad: ");
+                if (!int.TryParse(Console.ReadLine(), out int qty) || qty <= 0)
+                {
+                    Console.WriteLine("Cantidad inválida.");
+                    Console.ReadKey();
+                    continue;
+                }
+
+                saleBuilder.AddProduct(productId, qty);
+
+                Console.Write("\n¿Agregar otro producto? (S/N): ");
+                adding = Console.ReadLine().Trim().ToUpper() == "S";
+            }
+
+            // Construir venta
+            Sale sale = saleBuilder.Build();
+
+            // Decorator (descuento)
+            ISale finalSale = new BaseSale(sale);
+            finalSale = new EmployeeDiscountDecorator(finalSale);
+
+            // Método de pago
+            Console.Clear();
+            Console.WriteLine("=== MÉTODO DE PAGO ===\n");
+            Console.WriteLine("1. Efectivo");
+            Console.WriteLine("2. Tarjeta");
+            Console.Write("\nSeleccione: ");
+            string pay = Console.ReadLine();
 
             var pos = new PointOfSaleFacade();
-            pos.SetPaymentStrategy(new CardPaymentStrategy());
-            pos.CompleteSale(saleFinal);
+
+            if (pay == "2")
+                pos.SetPaymentStrategy(new CardPaymentStrategy());
+            else
+                pos.SetPaymentStrategy(new CashPaymentStrategy());
+
+            Console.Clear();
+            pos.CompleteSale(finalSale);
+
+            Console.WriteLine("\nPresione una tecla para regresar al Menú principal...");
+            Console.ReadKey();
         }
 
+        // ------------------- MÓDULO DE ALMACÉN -------------------
         static void RunWarehouseModule()
         {
-            Console.WriteLine("\n--- Módulo de Almacén ---");
-            Console.WriteLine("Catálogo de Productos (Composite):");
+            Console.Clear();
+            Console.WriteLine("=== MÓDULO DE ALMACÉN ===\n");
+
+            Console.WriteLine("Catálogo actual:\n");
             _db.RootCategory.Display(0);
 
-            Console.WriteLine("\nImportando productos de sistema antiguo...");
+            Console.WriteLine("\nImportando productos del sistema antiguo...\n");
             var importer = new LegacyProductImporter();
             importer.ImportProducts();
 
-            Console.WriteLine("\nCatálogo actualizado:");
+            Console.WriteLine("\nCatálogo actualizado:\n");
             _db.RootCategory.Display(0);
 
-            Console.WriteLine("\n(Patrón Observer está activo para)");
+            Console.WriteLine("\nPresione una tecla para continuar...");
+            Console.ReadKey();
         }
 
+        // ------------------- MÓDULO DE EMPLEADOS -------------------
         static void RunEmployeeModule()
         {
-            Console.WriteLine("\n--- Módulo de Empleados ---");
+            Console.Clear();
+            Console.WriteLine("=== MÓDULO DE EMPLEADOS ===\n");
+
             var manager = new EmployeeManager();
-            var newEmployee = new Employee { Name = "Cesar Martínez", Role = "Admin" }; 
+            var newEmployee = new Employee { Name = "Cesar Martínez", Role = "Admin" };
 
             IEmployeeCommand command = new AddEmployeeCommand(newEmployee);
             manager.ProcessCommand(command);
+
+            Console.WriteLine("\nPresione una tecla para continuar...");
+            Console.ReadKey();
         }
 
+        // ------------------- MÓDULO DE REPORTES -------------------
         static void RunReportsModule()
         {
-            Console.WriteLine("\n--- Módulo de Reportes ---");
+            Console.Clear();
+            Console.WriteLine("=== MÓDULO DE REPORTES ===\n");
 
-            Report salesReport = new SalesReport();
-            salesReport.GenerateReport();
+            new SalesReport().GenerateReport();
+            new StockReport().GenerateReport();
 
-            Report stockReport = new StockReport();
-            stockReport.GenerateReport();
+            Console.WriteLine("\nPresione una tecla para continuar...");
+            Console.ReadKey();
         }
 
+        // ------------------- SEEDING DE DATOS -------------------
         static void SeedData()
         {
-            // Empleados (HU2)
             _db.Employees.Add(new Employee { Id = 1, Name = "Francisco Villaverde", Role = "Vendedor" });
-            _db.Employees.Add(new Employee { Id = 2, Name = "Saúl Santiago", Role = "Almacenista" }); 
+            _db.Employees.Add(new Employee { Id = 2, Name = "Saúl Santiago", Role = "Almacenista" });
 
-            // Productos (HU4)
-            var p1 = new Product { Id = "1", Name = "Cuaderno Profesional", Price = 45.00m, Stock = 20 };
-            var p2 = new Product { Id = "2", Name = "Lápiz Mirado", Price = 8.50m, Stock = 50 };
-            var p3 = new Product { Id = "3", Name = "Pluma BIC", Price = 7.00m, Stock = 100 };
-            var p4 = new Product { Id = "4", Name = "Pluma Negra (Stock Bajo)", Price = 7.00m, Stock = 6 };
+            var p1 = new Product { Id = "1", Name = "Cuaderno Profesional", Price = 45m, Stock = 20 };
+            var p2 = new Product { Id = "2", Name = "Lápiz Mirado", Price = 8.5m, Stock = 50 };
+            var p3 = new Product { Id = "3", Name = "Pluma BIC", Price = 7m, Stock = 100 };
+            var p4 = new Product { Id = "4", Name = "Pluma Negra (Stock Bajo)", Price = 7m, Stock = 6 };
 
-            // Configurar Observador (HU4 - Alertas)
-            var stockAlert = new StockAlert("admin@arcoiris.com");
-            p4.RegisterObserver(stockAlert);
+            var alert = new Proyecto.Inventory.Observers.StockAlert("admin@arcoiris.com");
+            p4.RegisterObserver(alert);
 
-            // Configurar Composite
-            var papeleriaCat = new CategoryComposite("Papelería");
-            papeleriaCat.Add(p1);
-            papeleriaCat.Add(p2);
-            var escrituraCat = new CategoryComposite("Escritura");
-            escrituraCat.Add(p3);
-            escrituraCat.Add(p4);
-            papeleriaCat.Add(escrituraCat);
-            _db.RootCategory.Add(papeleriaCat);
+            var catMain = new Proyecto.Inventory.Composite.CategoryComposite("Papelería");
+            var catWriting = new Proyecto.Inventory.Composite.CategoryComposite("Escritura");
+
+            catMain.Add(p1);
+            catMain.Add(p2);
+            catWriting.Add(p3);
+            catWriting.Add(p4);
+            catMain.Add(catWriting);
+
+            _db.RootCategory.Add(catMain);
 
             _db.Products.AddRange(new List<Product> { p1, p2, p3, p4 });
         }

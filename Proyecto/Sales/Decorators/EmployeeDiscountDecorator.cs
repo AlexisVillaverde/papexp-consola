@@ -17,7 +17,7 @@ namespace Proyecto.Sales.Decorators
         }
         public override string GetDescription()
         {
-            return base.GetDescription() + " [DTO. Empleado 10%]";
+            return base.GetDescription();
         }
     }
 }

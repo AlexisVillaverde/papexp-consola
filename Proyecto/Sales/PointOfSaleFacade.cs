@@ -19,7 +19,7 @@ namespace Proyecto.Sales
 
         public void CompleteSale(ISale sale)
         {
-            Console.WriteLine("\n--- Procesando Venta (Facade) ---");
+            Console.WriteLine("\n--- Procesando Venta---");
             decimal finalCost = sale.GetTotalCost(); // Usa el Decorator
             Console.WriteLine($"Descripción: {sale.GetDescription()}");
 
