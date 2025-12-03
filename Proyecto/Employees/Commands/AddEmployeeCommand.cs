@@ -1,31 +1,30 @@
-﻿using Proyecto.Core;
-using Proyecto.Core.Models;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Proyecto.Core;
+using Proyecto.Core.Models;
 
 namespace Proyecto.Employees.Commands
 {
-    // --- PATRÓN COMMAND ---
-    // 2. El Comando Concreto (para HU2: Módulo de Empleados)
     public class AddEmployeeCommand : IEmployeeCommand
     {
-        private readonly Employee _employee;
-        private readonly DatabaseService _db;
+        private Employee _employee;
+        private DatabaseService _db = DatabaseService.GetInstance();
 
         public AddEmployeeCommand(Employee employee)
         {
             _employee = employee;
-            _db = DatabaseService.GetInstance(); // Usa el Singleton
         }
 
         public void Execute()
         {
-            _employee.Id = _db.Employees.Count + 1;
+            // Generar ID autoincremental
+            int newId = _db.Employees.Any() ? _db.Employees.Max(e => e.Id) + 1 : 1;
+            _employee.Id = newId;
+
             _db.Employees.Add(_employee);
-            Console.WriteLine($"Empleado '{_employee.Name}' añadido con ID: {_employee.Id}");
+            _db.SaveData(); // Guardar cambios en JSON
+
+            Console.WriteLine($"✅ Empleado agregado: {_employee.Name} (ID: {_employee.Id})");
         }
     }
 }

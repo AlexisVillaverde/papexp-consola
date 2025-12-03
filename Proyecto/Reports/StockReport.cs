@@ -1,9 +1,7 @@
 ﻿using Proyecto.Core.Models;
-using System;
+using Proyecto.Reports;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Proyecto.Reports
 {
@@ -17,12 +15,17 @@ namespace Proyecto.Reports
         protected override string ProcessData(object data)
         {
             var products = data as List<Product>;
-            string reportData = "REPORTE DE STOCK (ALMACÉN):\n";
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine("REPORTE DE INVENTARIO (Stock Actual)");
+            sb.AppendLine("---------------------------------");
+
             foreach (var p in products)
             {
-                reportData += $"- {p.Name}: {p.Stock} unidades\n";
+                string status = p.Stock < 5 ? "[BAJO]" : "[OK]";
+                sb.AppendLine($"{p.Id}: {p.Name} \t| Stock: {p.Stock} {status}");
             }
-            return reportData;
+
+            return sb.ToString();
         }
     }
 }

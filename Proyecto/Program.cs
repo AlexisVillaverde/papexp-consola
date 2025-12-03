@@ -32,6 +32,7 @@ namespace Proyecto
                 Console.WriteLine("3. Módulo de Empleados");
                 Console.WriteLine("4. Módulo de Reportes");
                 Console.WriteLine("5. Salir");
+                Console.WriteLine("6. Cerrar sesión");
                 Console.Write("Seleccione una opción: ");
                 string choice = Console.ReadLine();
 
@@ -41,7 +42,8 @@ namespace Proyecto
                     case "2": RunWarehouseModule(); break;
                     case "3": RunEmployeeModule(); break;
                     case "4": RunReportsModule(); break;
-                    case "5": running = false; break;
+                    case "5": break;
+                        case "6": running = false; break;
                     default: Console.WriteLine("Opción no válida."); break;
                 }
             }

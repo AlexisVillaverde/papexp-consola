@@ -1,0 +1,85 @@
+{
+  "Products": [
+    {
+      "Id": "1",
+      "Name": "Lápiz Mirado #2",
+      "Price": 5.00,
+      "Stock": 100
+    },
+    {
+      "Id": "2",
+      "Name": "Cuaderno Profesional Raya",
+      "Price": 25.50,
+      "Stock": 50
+    },
+    {
+      "Id": "3",
+      "Name": "Pluma BIC Negra",
+      "Price": 7.00,
+      "Stock": 200
+    },
+    {
+      "Id": "4",
+      "Name": "Goma de Borrar",
+      "Price": 3.00,
+      "Stock": 80
+    },
+    {
+      "Id": "5",
+      "Name": "Juego de Geometría",
+      "Price": 45.00,
+      "Stock": 30
+    },
+    {
+      "Id": "6",
+      "Name": "Paquete Hojas Blancas",
+      "Price": 120.00,
+      "Stock": 20
+    },
+    {
+      "Id": "7",
+      "Name": "Calculadora Científica",
+      "Price": 250.00,
+      "Stock": 10
+    },
+    {
+      "Id": "8",
+      "Name": "Mochila Escolar",
+      "Price": 450.00,
+      "Stock": 15
+    },
+    {
+      "Id": "9",
+      "Name": "Pegamento en Barra",
+      "Price": 15.00,
+      "Stock": 60
+    },
+    {
+      "Id": "10",
+      "Name": "Tijeras Escolares",
+      "Price": 18.50,
+      "Stock": 40
+    }
+  ],
+  "Employees": [
+    {
+      "Id": 1,
+      "Name": "Admin",
+      "Role": "Admin",
+      "Password": "123"
+    },
+    {
+      "Id": 2,
+      "Name": "Cajero",
+      "Role": "Vendedor",
+      "Password": "123"
+    },
+    {
+      "Id": 3,
+      "Name": "Gerente",
+      "Role": "Admin",
+      "Password": "admin"
+    }
+  ],
+  "SalesList": []
+}

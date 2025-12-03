@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|c:\\users\\leono\\onedrive\\documentos\\backend\\proyecto\\proyecto\\database.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\database.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|c:\\users\\leono\\onedrive\\documentos\\backend\\proyecto\\proyecto\\proyecto.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\proyecto.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|c:\\users\\leono\\onedrive\\documentos\\backend\\proyecto\\proyecto\\sales\\pointofsalefacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\sales\\pointofsalefacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|c:\\users\\leono\\onedrive\\documentos\\backend\\proyecto\\proyecto\\sales\\strategies\\cardpaymentstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\sales\\strategies\\cardpaymentstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,8 +23,124 @@
       "RelativeMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\sales\\strategies\\cashpaymentstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|c:\\users\\leono\\onedrive\\documentos\\backend\\proyecto\\proyecto\\sales\\pointofsalefacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\sales\\pointofsalefacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|c:\\users\\leono\\onedrive\\documentos\\backend\\proyecto\\proyecto\\sales\\strategies\\ipaymentstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\sales\\strategies\\ipaymentstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|c:\\users\\leono\\onedrive\\documentos\\backend\\proyecto\\proyecto\\sales\\decorators\\saledecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\sales\\decorators\\saledecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|c:\\users\\leono\\onedrive\\documentos\\backend\\proyecto\\proyecto\\sales\\decorators\\isale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\sales\\decorators\\isale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|c:\\users\\leono\\onedrive\\documentos\\backend\\proyecto\\proyecto\\sales\\salescollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\sales\\salescollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|c:\\users\\leono\\onedrive\\documentos\\backend\\proyecto\\proyecto\\sales\\iterators\\salesiterator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\sales\\iterators\\salesiterator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|c:\\users\\leono\\onedrive\\documentos\\backend\\proyecto\\proyecto\\sales\\iterators\\isaleiterator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\sales\\iterators\\isaleiterator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|c:\\users\\leono\\onedrive\\documentos\\backend\\proyecto\\proyecto\\reports\\proxies\\reportserviceproxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\reports\\proxies\\reportserviceproxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|c:\\users\\leono\\onedrive\\documentos\\backend\\proyecto\\proyecto\\reports\\proxies\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\reports\\proxies\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|c:\\users\\leono\\onedrive\\documentos\\backend\\proyecto\\proyecto\\reports\\proxies\\ireportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\reports\\proxies\\ireportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|c:\\users\\leono\\onedrive\\documentos\\backend\\proyecto\\proyecto\\sales\\builders\\salebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\sales\\builders\\salebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|c:\\users\\leono\\onedrive\\documentos\\backend\\proyecto\\proyecto\\reports\\stockreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\reports\\stockreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|c:\\users\\leono\\onedrive\\documentos\\backend\\proyecto\\proyecto\\reports\\salesreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\reports\\salesreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|c:\\users\\leono\\onedrive\\documentos\\backend\\proyecto\\proyecto\\reports\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\reports\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|c:\\users\\leono\\onedrive\\documentos\\backend\\proyecto\\proyecto\\sales\\states\\paidstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\sales\\states\\paidstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|c:\\users\\leono\\onedrive\\documentos\\backend\\proyecto\\proyecto\\sales\\states\\openstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\sales\\states\\openstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|c:\\users\\leono\\onedrive\\documentos\\backend\\proyecto\\proyecto\\sales\\states\\isalestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\sales\\states\\isalestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|c:\\users\\leono\\onedrive\\documentos\\backend\\proyecto\\proyecto\\sales\\memento\\salehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\sales\\memento\\salehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|c:\\users\\leono\\onedrive\\documentos\\backend\\proyecto\\proyecto\\employees\\employeemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\employees\\employeemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|c:\\users\\leono\\onedrive\\documentos\\backend\\proyecto\\proyecto\\employees\\factories\\vendedorfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\employees\\factories\\vendedorfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|c:\\users\\leono\\onedrive\\documentos\\backend\\proyecto\\proyecto\\employees\\factories\\adminfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\employees\\factories\\adminfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|c:\\users\\leono\\onedrive\\documentos\\backend\\proyecto\\proyecto\\employees\\factories\\employeefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\employees\\factories\\employeefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|c:\\users\\leono\\onedrive\\documentos\\backend\\proyecto\\proyecto\\employees\\commands\\addemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\employees\\commands\\addemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|c:\\users\\leono\\onedrive\\documentos\\backend\\proyecto\\proyecto\\employees\\commands\\updateemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\employees\\commands\\updateemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|c:\\users\\leono\\onedrive\\documentos\\backend\\proyecto\\proyecto\\core\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\core\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|c:\\users\\leono\\onedrive\\documentos\\backend\\proyecto\\proyecto\\core\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\core\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|c:\\users\\leono\\onedrive\\documentos\\backend\\proyecto\\proyecto\\core\\models\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\core\\models\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|c:\\users\\leono\\onedrive\\documentos\\backend\\proyecto\\proyecto\\core\\models\\salesnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\core\\models\\salesnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|c:\\users\\leono\\onedrive\\documentos\\backend\\proyecto\\proyecto\\core\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\core\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|c:\\users\\leono\\onedrive\\documentos\\backend\\proyecto\\proyecto\\employees\\commands\\deleteemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\employees\\commands\\deleteemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|c:\\users\\leono\\onedrive\\documentos\\backend\\proyecto\\proyecto\\employees\\commands\\iemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\employees\\commands\\iemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|c:\\users\\leono\\onedrive\\documentos\\backend\\proyecto\\proyecto\\inventory\\observers\\stockalert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,48 +151,16 @@
       "RelativeMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\inventory\\observers\\istockobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|c:\\users\\leono\\onedrive\\documentos\\backend\\proyecto\\proyecto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|c:\\users\\leono\\onedrive\\documentos\\backend\\proyecto\\proyecto\\reports\\stockreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\reports\\stockreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|c:\\users\\leono\\onedrive\\documentos\\backend\\proyecto\\proyecto\\inventory\\composite\\icatalogitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\inventory\\composite\\icatalogitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|c:\\users\\leono\\onedrive\\documentos\\backend\\proyecto\\proyecto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|c:\\users\\leono\\onedrive\\documentos\\backend\\proyecto\\proyecto\\inventory\\adapters\\oldcsvservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\inventory\\adapters\\oldcsvservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|c:\\users\\leono\\onedrive\\documentos\\backend\\proyecto\\proyecto\\employees\\employeemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\employees\\employeemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|c:\\users\\leono\\onedrive\\documentos\\backend\\proyecto\\proyecto\\employees\\commands\\iemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\employees\\commands\\iemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|c:\\users\\leono\\onedrive\\documentos\\backend\\proyecto\\proyecto\\employees\\commands\\addemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\employees\\commands\\addemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|c:\\users\\leono\\onedrive\\documentos\\backend\\proyecto\\proyecto\\core\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\core\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|c:\\users\\leono\\onedrive\\documentos\\backend\\proyecto\\proyecto\\core\\models\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\core\\models\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|c:\\users\\leono\\onedrive\\documentos\\backend\\proyecto\\proyecto\\core\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\core\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|c:\\users\\leono\\onedrive\\documentos\\backend\\proyecto\\proyecto\\core\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0461326-F278-4E38-984C-630A41AF740F}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\core\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,11 +170,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Proyecto",
+              "DocumentMoniker": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Proyecto.csproj",
+              "RelativeDocumentMoniker": "Proyecto\\Proyecto.csproj",
+              "ToolTip": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Proyecto.csproj",
+              "RelativeToolTip": "Proyecto\\Proyecto.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-03T05:44:18.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "database.json",
+              "DocumentMoniker": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\database.json",
+              "RelativeDocumentMoniker": "Proyecto\\database.json",
+              "ToolTip": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\database.json",
+              "RelativeToolTip": "Proyecto\\database.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-03T05:44:44.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IPaymentStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Sales\\Strategies\\IPaymentStrategy.cs",
+              "RelativeDocumentMoniker": "Proyecto\\Sales\\Strategies\\IPaymentStrategy.cs",
+              "ToolTip": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Sales\\Strategies\\IPaymentStrategy.cs",
+              "RelativeToolTip": "Proyecto\\Sales\\Strategies\\IPaymentStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T05:38:38.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SaleDecorator.cs",
+              "DocumentMoniker": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Sales\\Decorators\\SaleDecorator.cs",
+              "RelativeDocumentMoniker": "Proyecto\\Sales\\Decorators\\SaleDecorator.cs",
+              "ToolTip": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Sales\\Decorators\\SaleDecorator.cs",
+              "RelativeToolTip": "Proyecto\\Sales\\Decorators\\SaleDecorator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T05:37:44.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ISale.cs",
+              "DocumentMoniker": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Sales\\Decorators\\ISale.cs",
+              "RelativeDocumentMoniker": "Proyecto\\Sales\\Decorators\\ISale.cs",
+              "ToolTip": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Sales\\Decorators\\ISale.cs",
+              "RelativeToolTip": "Proyecto\\Sales\\Decorators\\ISale.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T05:37:05.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CashPaymentStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Sales\\Strategies\\CashPaymentStrategy.cs",
+              "RelativeDocumentMoniker": "Proyecto\\Sales\\Strategies\\CashPaymentStrategy.cs",
+              "ToolTip": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Sales\\Strategies\\CashPaymentStrategy.cs",
+              "RelativeToolTip": "Proyecto\\Sales\\Strategies\\CashPaymentStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T17:21:42.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "CardPaymentStrategy.cs",
               "DocumentMoniker": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Sales\\Strategies\\CardPaymentStrategy.cs",
               "RelativeDocumentMoniker": "Proyecto\\Sales\\Strategies\\CardPaymentStrategy.cs",
@@ -97,40 +271,352 @@
               "RelativeDocumentMoniker": "Proyecto\\Sales\\PointOfSaleFacade.cs",
               "ToolTip": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Sales\\PointOfSaleFacade.cs",
               "RelativeToolTip": "Proyecto\\Sales\\PointOfSaleFacade.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAnwBsAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-24T17:21:46.979Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CashPaymentStrategy.cs",
-              "DocumentMoniker": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Sales\\Strategies\\CashPaymentStrategy.cs",
-              "RelativeDocumentMoniker": "Proyecto\\Sales\\Strategies\\CashPaymentStrategy.cs",
-              "ToolTip": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Sales\\Strategies\\CashPaymentStrategy.cs*",
-              "RelativeToolTip": "Proyecto\\Sales\\Strategies\\CashPaymentStrategy.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAA2AAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "SalesCollection.cs",
+              "DocumentMoniker": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Sales\\SalesCollection.cs",
+              "RelativeDocumentMoniker": "Proyecto\\Sales\\SalesCollection.cs",
+              "ToolTip": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Sales\\SalesCollection.cs",
+              "RelativeToolTip": "Proyecto\\Sales\\SalesCollection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T17:21:42.173Z",
+              "WhenOpened": "2025-12-03T05:36:25.45Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
+              "Title": "SalesIterator.cs",
+              "DocumentMoniker": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Sales\\Iterators\\SalesIterator.cs",
+              "RelativeDocumentMoniker": "Proyecto\\Sales\\Iterators\\SalesIterator.cs",
+              "ToolTip": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Sales\\Iterators\\SalesIterator.cs",
+              "RelativeToolTip": "Proyecto\\Sales\\Iterators\\SalesIterator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T05:35:09.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ISaleIterator.cs",
+              "DocumentMoniker": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Sales\\Iterators\\ISaleIterator.cs",
+              "RelativeDocumentMoniker": "Proyecto\\Sales\\Iterators\\ISaleIterator.cs",
+              "ToolTip": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Sales\\Iterators\\ISaleIterator.cs",
+              "RelativeToolTip": "Proyecto\\Sales\\Iterators\\ISaleIterator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T05:34:31.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ReportServiceProxy.cs",
+              "DocumentMoniker": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Reports\\Proxies\\ReportServiceProxy.cs",
+              "RelativeDocumentMoniker": "Proyecto\\Reports\\Proxies\\ReportServiceProxy.cs",
+              "ToolTip": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Reports\\Proxies\\ReportServiceProxy.cs",
+              "RelativeToolTip": "Proyecto\\Reports\\Proxies\\ReportServiceProxy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T05:29:29.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ReportService.cs",
+              "DocumentMoniker": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Reports\\Proxies\\ReportService.cs",
+              "RelativeDocumentMoniker": "Proyecto\\Reports\\Proxies\\ReportService.cs",
+              "ToolTip": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Reports\\Proxies\\ReportService.cs",
+              "RelativeToolTip": "Proyecto\\Reports\\Proxies\\ReportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T05:28:56.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IReportService.cs",
+              "DocumentMoniker": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Reports\\Proxies\\IReportService.cs",
+              "RelativeDocumentMoniker": "Proyecto\\Reports\\Proxies\\IReportService.cs",
+              "ToolTip": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Reports\\Proxies\\IReportService.cs",
+              "RelativeToolTip": "Proyecto\\Reports\\Proxies\\IReportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T05:28:26.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SalesReport.cs",
+              "DocumentMoniker": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Reports\\SalesReport.cs",
+              "RelativeDocumentMoniker": "Proyecto\\Reports\\SalesReport.cs",
+              "ToolTip": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Reports\\SalesReport.cs",
+              "RelativeToolTip": "Proyecto\\Reports\\SalesReport.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T05:25:13.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Report.cs",
+              "DocumentMoniker": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Reports\\Report.cs",
+              "RelativeDocumentMoniker": "Proyecto\\Reports\\Report.cs",
+              "ToolTip": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Reports\\Report.cs",
+              "RelativeToolTip": "Proyecto\\Reports\\Report.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACUAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T05:23:44.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PaidState.cs",
+              "DocumentMoniker": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Sales\\States\\PaidState.cs",
+              "RelativeDocumentMoniker": "Proyecto\\Sales\\States\\PaidState.cs",
+              "ToolTip": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Sales\\States\\PaidState.cs",
+              "RelativeToolTip": "Proyecto\\Sales\\States\\PaidState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T05:17:43.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "OpenState.cs",
+              "DocumentMoniker": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Sales\\States\\OpenState.cs",
+              "RelativeDocumentMoniker": "Proyecto\\Sales\\States\\OpenState.cs",
+              "ToolTip": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Sales\\States\\OpenState.cs",
+              "RelativeToolTip": "Proyecto\\Sales\\States\\OpenState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T05:10:13.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SaleHistory.cs",
+              "DocumentMoniker": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Sales\\Memento\\SaleHistory.cs",
+              "RelativeDocumentMoniker": "Proyecto\\Sales\\Memento\\SaleHistory.cs",
+              "ToolTip": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Sales\\Memento\\SaleHistory.cs",
+              "RelativeToolTip": "Proyecto\\Sales\\Memento\\SaleHistory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T05:03:00.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ISaleState.cs",
+              "DocumentMoniker": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Sales\\States\\ISaleState.cs",
+              "RelativeDocumentMoniker": "Proyecto\\Sales\\States\\ISaleState.cs",
+              "ToolTip": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Sales\\States\\ISaleState.cs",
+              "RelativeToolTip": "Proyecto\\Sales\\States\\ISaleState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T04:57:02.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "StockReport.cs",
               "DocumentMoniker": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Reports\\StockReport.cs",
               "RelativeDocumentMoniker": "Proyecto\\Reports\\StockReport.cs",
               "ToolTip": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Reports\\StockReport.cs",
               "RelativeToolTip": "Proyecto\\Reports\\StockReport.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-24T17:19:47.798Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
+              "Title": "SaleBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Sales\\Builders\\SaleBuilder.cs",
+              "RelativeDocumentMoniker": "Proyecto\\Sales\\Builders\\SaleBuilder.cs",
+              "ToolTip": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Sales\\Builders\\SaleBuilder.cs",
+              "RelativeToolTip": "Proyecto\\Sales\\Builders\\SaleBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T04:43:42.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "VendedorFactory.cs",
+              "DocumentMoniker": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Employees\\Factories\\VendedorFactory.cs",
+              "RelativeDocumentMoniker": "Proyecto\\Employees\\Factories\\VendedorFactory.cs",
+              "ToolTip": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Employees\\Factories\\VendedorFactory.cs",
+              "RelativeToolTip": "Proyecto\\Employees\\Factories\\VendedorFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T04:37:38.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AdminFactory.cs",
+              "DocumentMoniker": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Employees\\Factories\\AdminFactory.cs",
+              "RelativeDocumentMoniker": "Proyecto\\Employees\\Factories\\AdminFactory.cs",
+              "ToolTip": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Employees\\Factories\\AdminFactory.cs",
+              "RelativeToolTip": "Proyecto\\Employees\\Factories\\AdminFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T04:36:06.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "EmployeeFactory.cs",
+              "DocumentMoniker": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Employees\\Factories\\EmployeeFactory.cs",
+              "RelativeDocumentMoniker": "Proyecto\\Employees\\Factories\\EmployeeFactory.cs",
+              "ToolTip": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Employees\\Factories\\EmployeeFactory.cs",
+              "RelativeToolTip": "Proyecto\\Employees\\Factories\\EmployeeFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T04:35:29.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Core\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "Proyecto\\Core\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Core\\Models\\Employee.cs",
+              "RelativeToolTip": "Proyecto\\Core\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T04:24:46.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AddEmployeeCommand.cs",
+              "DocumentMoniker": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Employees\\Commands\\AddEmployeeCommand.cs",
+              "RelativeDocumentMoniker": "Proyecto\\Employees\\Commands\\AddEmployeeCommand.cs",
+              "ToolTip": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Employees\\Commands\\AddEmployeeCommand.cs",
+              "RelativeToolTip": "Proyecto\\Employees\\Commands\\AddEmployeeCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T17:11:25.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "EmployeeManager.cs",
+              "DocumentMoniker": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Employees\\EmployeeManager.cs",
+              "RelativeDocumentMoniker": "Proyecto\\Employees\\EmployeeManager.cs",
+              "ToolTip": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Employees\\EmployeeManager.cs",
+              "RelativeToolTip": "Proyecto\\Employees\\EmployeeManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T21:47:25.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Core\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Proyecto\\Core\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Core\\Models\\Product.cs",
+              "RelativeToolTip": "Proyecto\\Core\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T04:23:33.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Sale.cs",
+              "DocumentMoniker": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Core\\Models\\Sale.cs",
+              "RelativeDocumentMoniker": "Proyecto\\Core\\Models\\Sale.cs",
+              "ToolTip": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Core\\Models\\Sale.cs",
+              "RelativeToolTip": "Proyecto\\Core\\Models\\Sale.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T04:25:16.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UpdateEmployeeCommand.cs",
+              "DocumentMoniker": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Employees\\Commands\\UpdateEmployeeCommand.cs",
+              "RelativeDocumentMoniker": "Proyecto\\Employees\\Commands\\UpdateEmployeeCommand.cs",
+              "ToolTip": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Employees\\Commands\\UpdateEmployeeCommand.cs",
+              "RelativeToolTip": "Proyecto\\Employees\\Commands\\UpdateEmployeeCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T03:37:15.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "SaleSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Core\\Models\\SaleSnapshot.cs",
+              "RelativeDocumentMoniker": "Proyecto\\Core\\Models\\SaleSnapshot.cs",
+              "ToolTip": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Core\\Models\\SaleSnapshot.cs",
+              "RelativeToolTip": "Proyecto\\Core\\Models\\SaleSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T03:22:48.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "DatabaseService.cs",
+              "DocumentMoniker": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Core\\DatabaseService.cs",
+              "RelativeDocumentMoniker": "Proyecto\\Core\\DatabaseService.cs",
+              "ToolTip": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Core\\DatabaseService.cs",
+              "RelativeToolTip": "Proyecto\\Core\\DatabaseService.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAYwAYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T04:21:43.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "DeleteEmployeeCommand.cs",
+              "DocumentMoniker": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Employees\\Commands\\DeleteEmployeeCommand.cs",
+              "RelativeDocumentMoniker": "Proyecto\\Employees\\Commands\\DeleteEmployeeCommand.cs",
+              "ToolTip": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Employees\\Commands\\DeleteEmployeeCommand.cs",
+              "RelativeToolTip": "Proyecto\\Employees\\Commands\\DeleteEmployeeCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T03:48:09.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
               "Title": "OldCsvService.cs",
               "DocumentMoniker": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Inventory\\Adapters\\OldCsvService.cs",
               "RelativeDocumentMoniker": "Proyecto\\Inventory\\Adapters\\OldCsvService.cs",
@@ -138,25 +624,23 @@
               "RelativeToolTip": "Proyecto\\Inventory\\Adapters\\OldCsvService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T17:19:27.46Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T17:19:27.46Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 35,
               "Title": "StockAlert.cs",
               "DocumentMoniker": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Inventory\\Observers\\StockAlert.cs",
               "RelativeDocumentMoniker": "Proyecto\\Inventory\\Observers\\StockAlert.cs",
               "ToolTip": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Inventory\\Observers\\StockAlert.cs",
               "RelativeToolTip": "Proyecto\\Inventory\\Observers\\StockAlert.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T17:12:37.671Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T17:12:37.671Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 37,
               "Title": "ICatalogItem.cs",
               "DocumentMoniker": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Inventory\\Composite\\ICatalogItem.cs",
               "RelativeDocumentMoniker": "Proyecto\\Inventory\\Composite\\ICatalogItem.cs",
@@ -164,103 +648,23 @@
               "RelativeToolTip": "Proyecto\\Inventory\\Composite\\ICatalogItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T17:11:49.427Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T17:11:49.427Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AddEmployeeCommand.cs",
-              "DocumentMoniker": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Employees\\Commands\\AddEmployeeCommand.cs",
-              "RelativeDocumentMoniker": "Proyecto\\Employees\\Commands\\AddEmployeeCommand.cs",
-              "ToolTip": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Employees\\Commands\\AddEmployeeCommand.cs",
-              "RelativeToolTip": "Proyecto\\Employees\\Commands\\AddEmployeeCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T17:11:25.991Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 34,
               "Title": "IEmployeeCommand.cs",
               "DocumentMoniker": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Employees\\Commands\\IEmployeeCommand.cs",
               "RelativeDocumentMoniker": "Proyecto\\Employees\\Commands\\IEmployeeCommand.cs",
               "ToolTip": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Employees\\Commands\\IEmployeeCommand.cs",
               "RelativeToolTip": "Proyecto\\Employees\\Commands\\IEmployeeCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T17:11:13.177Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T17:11:13.177Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EmployeeManager.cs",
-              "DocumentMoniker": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Employees\\EmployeeManager.cs",
-              "RelativeDocumentMoniker": "Proyecto\\Employees\\EmployeeManager.cs",
-              "ToolTip": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Employees\\EmployeeManager.cs",
-              "RelativeToolTip": "Proyecto\\Employees\\EmployeeManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T21:47:25.254Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Core\\Models\\Employee.cs",
-              "RelativeDocumentMoniker": "Proyecto\\Core\\Models\\Employee.cs",
-              "ToolTip": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Core\\Models\\Employee.cs",
-              "RelativeToolTip": "Proyecto\\Core\\Models\\Employee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T04:24:46.275Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Core\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "Proyecto\\Core\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Core\\Models\\Product.cs",
-              "RelativeToolTip": "Proyecto\\Core\\Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T04:23:33.702Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "DatabaseService.cs",
-              "DocumentMoniker": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Core\\DatabaseService.cs",
-              "RelativeDocumentMoniker": "Proyecto\\Core\\DatabaseService.cs",
-              "ToolTip": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Core\\DatabaseService.cs",
-              "RelativeToolTip": "Proyecto\\Core\\DatabaseService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T04:21:43.657Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Sale.cs",
-              "DocumentMoniker": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Core\\Models\\Sale.cs",
-              "RelativeDocumentMoniker": "Proyecto\\Core\\Models\\Sale.cs",
-              "ToolTip": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Core\\Models\\Sale.cs",
-              "RelativeToolTip": "Proyecto\\Core\\Models\\Sale.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T04:25:16.858Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 36,
               "Title": "IStockObserver.cs",
               "DocumentMoniker": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Inventory\\Observers\\IStockObserver.cs",
               "RelativeDocumentMoniker": "Proyecto\\Inventory\\Observers\\IStockObserver.cs",
@@ -268,21 +672,19 @@
               "RelativeToolTip": "Proyecto\\Inventory\\Observers\\IStockObserver.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T21:49:44.176Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-21T21:49:44.176Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 38,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Program.cs",
               "RelativeDocumentMoniker": "Proyecto\\Program.cs",
               "ToolTip": "C:\\Users\\leono\\OneDrive\\Documentos\\Backend\\Proyecto\\Proyecto\\Program.cs",
               "RelativeToolTip": "Proyecto\\Program.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwG4AAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAowC4AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T03:57:27.143Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-10T03:57:27.143Z"
             }
           ]
         }

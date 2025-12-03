@@ -1,56 +1,43 @@
-﻿using Proyecto.Core;
-using Proyecto.Core.Models;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Proyecto.Core;
+using Proyecto.Core.Models;
+using Proyecto.Sales.Memento;
 
 namespace Proyecto.Sales.Builders
 {
     public class SaleBuilder
     {
-        private Sale _sale = new Sale();
+        private Sale _sale;
         private DatabaseService _db = DatabaseService.GetInstance();
+        private SaleHistory _history = new SaleHistory(); // Caretaker Memento
 
         public SaleBuilder(Employee cashier)
         {
-            _sale.Id = _db.Sales.Count + 1;
-            _sale.Cashier = cashier;
+            _sale = new Sale { Id = _db.Sales.GetList().Count + 1, Cashier = cashier };
         }
 
         public bool AddProduct(string productId, int quantity)
         {
-            var product = _db.Products.Find(p => p.Id == productId);
-            if (product == null)
-            {
-                Console.WriteLine($"Error: Producto ID {productId} no encontrado.");
-                return false;
-            }
-            if (product.Stock < quantity)
-            {
-                Console.WriteLine($"Error: Stock insuficiente para '{product.Name}'.");
-                return false;
-            }
+            _history.Save(_sale); // Guardar estado antes de modificar
 
-            // Descuenta el stock (esto dispara el Observer)
-            product.Stock -= quantity;
-
-            for (int i = 0; i < quantity; i++)
+            var product = _db.Products.FirstOrDefault(p => p.Id == productId);
+            if (product != null && product.Stock >= quantity)
             {
-                _sale.Items.Add(product);
+                for (int i = 0; i < quantity; i++) _sale.Items.Add(product);
+                Console.WriteLine($"Agregado: {product.Name} x{quantity}");
+                return true;
             }
-
-            Console.WriteLine($"'{product.Name}' x{quantity} añadido al carrito.");
-            return true;
+            Console.WriteLine("Error: Stock o producto inválido.");
+            return false;
         }
 
-        public Sale Build()
+        public void RemoveLastAdded()
         {
-            _sale.Total = _sale.Items.Sum(item => item.Price);
-            _db.Sales.Add(_sale);
-            return _sale;
+            Console.WriteLine("Deshaciendo última acción...");
+            _history.Undo(_sale);
         }
 
+        public Sale GetSale() => _sale;
     }
 }

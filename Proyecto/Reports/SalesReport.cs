@@ -1,24 +1,43 @@
-﻿using Proyecto.Core.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Text;
+using Proyecto.Core.Models;
+using Proyecto.Sales.Iterators; // Asegúrate de tener este namespace
 
 namespace Proyecto.Reports
 {
-    public class SalesReport: Report
+    public class SalesReport : Report
     {
         protected override object FetchData()
         {
-            return _db.Sales;
+            // Obtenemos el ITERADOR de la colección de ventas
+            return _db.Sales.CreateIterator();
         }
 
         protected override string ProcessData(object data)
         {
-            var sales = data as List<Sale>;
-            decimal totalRevenue = sales.Sum(s => s.Total);
-            return $"REPORTE DE VENTAS:\nTotal de Ventas: {sales.Count}\nIngresos Totales: ${totalRevenue:F2}";
+            var iterator = data as ISaleIterator;
+            if (iterator == null) return "Error: No se pudo obtener el iterador de ventas.";
+
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine("REPORTE DE VENTAS (Historial Completo)");
+            sb.AppendLine("---------------------------------");
+
+            decimal grandTotal = 0;
+            int count = 0;
+
+            // PATRÓN ITERATOR: Recorremos sin saber cómo es la lista interna
+            while (iterator.HasNext())
+            {
+                Sale sale = iterator.Next();
+                sb.AppendLine($"Venta #{sale.Id} | Cajero: {sale.Cashier.Name} | Total: ${sale.Total}");
+                grandTotal += sale.Total;
+                count++;
+            }
+
+            sb.AppendLine("---------------------------------");
+            sb.AppendLine($"Total Ventas: {count}");
+            sb.AppendLine($"Ingresos Totales: ${grandTotal}");
+
+            return sb.ToString();
         }
     }
 }
