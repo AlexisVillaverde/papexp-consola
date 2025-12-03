@@ -274,9 +274,8 @@ namespace Proyecto
                 Console.WriteLine("4. Eliminar Producto (Command)");
                 Console.WriteLine("5. Crear desde Kit Predefinido (Abstract Factory)");
                 Console.WriteLine("6. Clonar Producto Existente (Prototype)");
-                Console.WriteLine("7. Importar desde CSV Legacy (Adapter)");
-                Console.WriteLine("8. Exportar Inventario Completo (Visitor)");
-                Console.WriteLine("9. Volver");
+                Console.WriteLine("7. Exportar Inventario Completo CSV (Visitor)");
+                Console.WriteLine("8. Volver");
                 Console.Write("> ");
                 string op = Console.ReadLine();
 
@@ -335,21 +334,14 @@ namespace Proyecto
                         }
                         Console.ReadKey();
                         break;
-                    case "7": // ADAPTER
-                        var adapter = new LegacyProductImporter();
-                        adapter.ImportProducts();
-                        _db.SaveData();
-                        Console.WriteLine("Importación legacy finalizada.");
-                        Console.ReadKey();
-                        break;
-                    case "8": // VISITOR
+                    case "7": // VISITOR
                         var visitor = new InventoryExportVisitor();
                         Console.WriteLine("\n--- EXPORTACIÓN DE DATOS ---");
                         foreach (var p in _db.Products) p.Accept(visitor);
                         Console.WriteLine("--- FIN EXPORTACIÓN ---");
                         Console.ReadKey();
                         break;
-                    case "9": inModule = false; break;
+                    case "8": inModule = false; break;
                 }
             }
         }
