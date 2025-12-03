@@ -225,6 +225,7 @@ namespace Proyecto
             Console.Write("\n¿Cliente tiene tarjeta de puntos/empleado? (s/n): ");
             if (Console.ReadLine().ToLower() == "s")
             {
+                Console.Write("Su descuento de 10% se aplicará automáticamente.\n");
                 finalSale = new EmployeeDiscountDecorator(finalSale);
                 Console.WriteLine("-> Descuento aplicado.");
             }

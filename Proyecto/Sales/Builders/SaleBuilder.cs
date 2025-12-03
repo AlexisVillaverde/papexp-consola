@@ -10,7 +10,7 @@ namespace Proyecto.Sales.Builders
     {
         private Sale _sale;
         private DatabaseService _db = DatabaseService.GetInstance();
-        private SaleHistory _history = new SaleHistory(); // Caretaker Memento
+        private SaleHistory _history = new SaleHistory(); // Memento Caretaker
 
         public SaleBuilder(Employee cashier)
         {
@@ -22,13 +22,18 @@ namespace Proyecto.Sales.Builders
             _history.Save(_sale); // Guardar estado antes de modificar
 
             var product = _db.Products.FirstOrDefault(p => p.Id == productId);
+            // Verificamos stock
             if (product != null && product.Stock >= quantity)
             {
-                for (int i = 0; i < quantity; i++) _sale.Items.Add(product);
+                for (int i = 0; i < quantity; i++)
+                {
+                    _sale.Items.Add(product);
+                }
                 Console.WriteLine($"Agregado: {product.Name} x{quantity}");
                 return true;
             }
-            Console.WriteLine("Error: Stock o producto inválido.");
+
+            Console.WriteLine("Error: Stock insuficiente o producto no encontrado.");
             return false;
         }
 
@@ -38,6 +43,15 @@ namespace Proyecto.Sales.Builders
             _history.Undo(_sale);
         }
 
-        public Sale GetSale() => _sale;
+        // --- CORRECCIÓN AQUÍ ---
+        public Sale GetSale()
+        {
+            // Antes de devolver la venta, calculamos el total real basado en los ítems actuales
+            if (_sale.Items != null)
+            {
+                _sale.Total = _sale.Items.Sum(item => item.Price);
+            }
+            return _sale;
+        }
     }
 }
