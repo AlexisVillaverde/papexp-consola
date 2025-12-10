@@ -180,12 +180,43 @@ namespace Proyecto
 
                         Console.Write("\nIngrese ID del producto: ");
                         string id = Console.ReadLine();
-                        Console.Write("Cantidad: ");
-                        if (int.TryParse(Console.ReadLine(), out int qty))
+
+                        var productSelected = _db.Products.FirstOrDefault(p => p.Id.ToString() == id);
+
+                        // 2. Validaciones previas
+                        if (productSelected == null)
                         {
-                            builder.AddProduct(id, qty);
-                            // OBSERVER: Al bajar stock en memoria (si se implementara en tiempo real), saltaría alerta
+                            Console.WriteLine("¡Error! Producto no encontrado.");
                         }
+                        else if (productSelected.Stock <= 0)
+                        {   
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            Console.WriteLine($"\n[!] El producto '{productSelected.Name}' está AGOTADO. No se puede agregar.");
+                            Console.ResetColor();
+                        }
+                        else
+                        {
+                            // Si hay stock, procedemos a pedir la cantidad
+                            Console.Write("Cantidad: ");
+                            if (int.TryParse(Console.ReadLine(), out int qty))
+                            {
+                                // Validar que no pida más de lo que hay
+                                if (qty > productSelected.Stock)
+                                {
+                                    Console.WriteLine($"[!] No hay suficiente stock. Solo quedan {productSelected.Stock}.");
+                                }
+                                else
+                                {
+                                    builder.AddProduct(id, qty);
+                                    Console.WriteLine("Producto agregado.");
+                                }
+                            }
+                            else
+                            {
+                                Console.WriteLine("Cantidad inválida.");
+                            }
+                        }
+                        Console.ReadKey(); 
                         break;
 
                     case "2":
@@ -215,7 +246,7 @@ namespace Proyecto
 
             if (!stockCheck.Handle(sale))
             {
-                Console.WriteLine("\n[!] La venta no pasó las validaciones automáticas.");
+                Console.WriteLine("\n[!] La venta no puede proceder.");
                 Console.ReadKey();
                 return;
             }
@@ -236,10 +267,26 @@ namespace Proyecto
             Console.WriteLine("Seleccione método de pago:");
             Console.WriteLine("1. Efectivo");
             Console.WriteLine("2. Tarjeta Bancaria");
+            Console.Write("> ");
             string payOp = Console.ReadLine();
 
-            if (payOp == "2") posFacade.SetPaymentStrategy(new CardPaymentStrategy());
-            else posFacade.SetPaymentStrategy(new CashPaymentStrategy());
+            if (payOp == "2")
+            {
+                // 1. Pedimos el número al usuario
+                Console.Write("\nIngrese los 16 dígitos de su tarjeta: ");
+                string cardNumber = Console.ReadLine();
+
+                Console.Write("Ingrese su NIP (4 dígitos): ");
+                string pin = Console.ReadLine();
+
+                // 2. Pasamos el dato al constructor de la estrategia
+                posFacade.SetPaymentStrategy(new CardPaymentStrategy(cardNumber,pin));
+            }
+            else
+            {
+                // La estrategia de efectivo no necesita parámetros
+                posFacade.SetPaymentStrategy(new CashPaymentStrategy());
+            }
 
             // Ejecuta el cobro a través de la fachada
             // STATE: Internamente cambia el estado de la venta a 'PaidState'
